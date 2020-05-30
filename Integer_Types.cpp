@@ -6,6 +6,9 @@ using namespace std;
 int main(){
 	
 	cout<<"The maximum value of an integer is "<<INT_MAX<<endl;
-	cout<<"The minimum value of an integer is "<<INT_MIN<<endl;	
+	cout<<"The minimum value of an integer is "<<INT_MIN<<"\n"<<endl;
+
+	cout<<"The maximum value of a short int is "<<SHRT_MAX<<endl;
+	cout<<"The minimum value of a short int is "<<SHRT_MIN<<"\n"<<endl;	
 	return 0;
 }
