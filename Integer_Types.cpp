@@ -15,5 +15,11 @@ int main(){
 	cout<<"The minimum value of a long value is "<<LONG_MIN<<"\n"<<endl;
 
 	cout<<"The maximum value of an unsigned value is "<<UINT_MAX<<"\n"<<endl;	
+	
+	cout<<"THe number of bytes occupied by an INTEGER is "<<sizeof(int)<<endl;
+	cout<<"The number of bytes occupied by a SHORT variable is "<<sizeof(short)<<endl;
+	cout<<"The number of bytes occupied by s LONG variable is "<<sizeof(long)<<endl;
+	cout<<"The number of bytes occupied by an UNSIGNED variable is "<<sizeof(unsigned int)<<endl;
+
 	return 0;
 }
