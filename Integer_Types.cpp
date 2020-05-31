@@ -21,5 +21,7 @@ int main(){
 	cout<<"The number of bytes occupied by s LONG variable is "<<sizeof(long)<<endl;
 	cout<<"The number of bytes occupied by an UNSIGNED variable is "<<sizeof(unsigned int)<<endl;
 
+        //waiting for the user to press ENTER
+        cin.get();
 	return 0;
 }
